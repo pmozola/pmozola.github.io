@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Refactoring procesu zapisu formularza
-image: /img/vsShortcuts.jpeg
-bigimg: /img/vsShortcuts.jpeg
+image: /img/submitApplyNow_old.svg
+bigimg: /img/submitApplyNow_old.svg
 tags: [Refactoring, Modelowanie, C#]
 ---
 
