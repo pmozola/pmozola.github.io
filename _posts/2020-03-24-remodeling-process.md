@@ -86,10 +86,5 @@ Z racji tego ze częsc aplikacji bedzie przetwarzana asynchronicznie, moze sie z
 Rozwiazaniem było sprawdzanie, przed wejsciem na kolejna strone, czy aplikacja została przetworzona, i w razie nie zakonczenia procesu przetwarzania formularza, poinformowania uzytkownika o tym fakcie, i poproszenie zeby odswierzył strone po kilku sekundach. 
 Po testach na srodowiskach przypadek nie wystarczajaco szybkiego przetworzenia aplikacji zdazał sie sporadycznie(miedzy innymi dla tego że aplikant po poprawnym złozeniu aplikacji dostaje sporo informacji o dalszym procesie rekrutacji), wiec takie rozwiazanie zostało zaakceptowane.  
 
-# Obsługa wyjątków 
-
-TODOTODO TODO
-
-
 # Podsumowanie
-sam refaktoring kodu, bez podzielenia procesu - czas spadł z 12 sekund na 6(duzy narzut wykonywanych workflowów), po wprowadzeniu przetwarzania asynchronicznego uzytkownik dostawał odpowiedz dotyczaca przyjecia aplikacji( juz nie jej poprawnego przetworzenia, tyko przyjecia do dalszego przetwarzania !) niemal natychmiastowo, co w znacznym stopniu poprawiło odbiór naszej aplikacji u klientów.
+Po samym refaktoring kodu czas akcji spadł z 12 sekund na 6(duzy narzut wykonywanych workflowów), a po wprowadzeniu przetwarzania asynchronicznego uzytkownik dostawał odpowiedz, dotyczaca przyjecia aplikacji, (juz nie jej poprawnego przetworzenia, tyko przyjecia do dalszego przetwarzania!) niemal natychmiastowo, co w znacznym stopniu poprawiło odbiór naszej aplikacji u klientów.
